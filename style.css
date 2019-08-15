@@ -1,5 +1,5 @@
 body {
-    background-image: url(./pictures/596831.jpg);
+    background-image: url(./pictures/930839.png);
     background-position: auto;
     background-repeat: no-repeat;
     padding: 0px;
@@ -7,9 +7,11 @@ body {
     background-size: 100%, 100%;
 }
 
+.title_text {
+    font-family: "Montserrat", sans-serif;
+}
 
 #tg_title {
-    font-family: 'Source Code Pro', monospace;
     font-size: 70px;
     text-align: center;
     margin: 0px;
@@ -20,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     z-index: -1;
-    background-color: rgba(0, 0, 0, 0.856);
+    background-color: rgba(0, 0, 0, 0.940);
     position: absolute;
     bottom: 85vh;
     padding: 0;
@@ -34,7 +36,7 @@ body {
     display: flex;
     justify-content: center;
     z-index: -1;
-    background-color: rgba(0, 0, 0, 0.911);
+    background-color: rgba(0, 0, 0, 0.940);
     position: absolute;
     top: 90vh;
     padding: 0;
@@ -46,9 +48,9 @@ body {
 
 .div_link {
     position: absolute; 
-    width: 80vw;
+    width: 95vw;
     top: 91%; 
-    Left: 10%; 
+    Left: 2.5%; 
     
 }
 
@@ -59,10 +61,10 @@ li {
 li a {
     text-decoration: none;
     display: inline-block;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.863);
     font-family: "Montserrat", sans-serif;
-    font-size: 35px;
-    padding: 0 60px;
+    font-size: 43px;
+    padding: 0 65px;
 }
 
 #season_link::after {
@@ -70,7 +72,7 @@ li a {
     display: block;
     width: 0;
     height: 2px;
-    background: rgb(255, 160, 160);
+    background: rgb(255, 4, 4);
     transition: width .3s;
 }
 
