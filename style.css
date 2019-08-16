@@ -61,13 +61,13 @@ li {
 li a {
     text-decoration: none;
     display: inline-block;
-    color: rgba(255, 255, 255, 0.863);
+    color: rgba(255, 255, 255, 0.800);
     font-family: "Montserrat", sans-serif;
     font-size: 43px;
     padding: 0 65px;
 }
 
-#season_link::after {
+#season_link1::after, #season_link2::after, #season_link3::after, #season_link4::after  {
     content: "";
     display: block;
     width: 0;
@@ -76,11 +76,15 @@ li a {
     transition: width .3s;
 }
 
-#season_link:hover::after {
+#season_link1:hover::after, #season_link2:hover::after, #season_link3:hover::after, #season_link4:hover::after {
     width: 100%;
     transition: width .3s;
 
 
+}
+
+#season_link1:hover, #season_link2:hover, #season_link3:hover, #season_link4:hover {
+    color: rgba(255, 255, 255, 0.900);
 }
 
 
