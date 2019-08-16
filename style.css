@@ -84,7 +84,7 @@ li a {
 }
 
 #season_link1:hover, #season_link2:hover, #season_link3:hover, #season_link4:hover {
-    color: rgba(255, 255, 255, 0.900);
+    color: rgb(255, 255, 255);
 }
 
 
