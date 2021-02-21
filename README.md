@@ -1,1 +1,1 @@
-https://zirixcz.github.io/AnimeHeaven/ weeeabooo OWO
+https://zirixcz.github.io/AnimeHeaven/
